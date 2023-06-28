@@ -1,0 +1,324 @@
+/* style header */
+
+@media screen and (max-width: 1025px) {
+    .header .phone {
+        width: 38.5%;
+        text-align: center;
+    }
+    .last-header .menu ul li {
+        width: 11.8%;
+    }
+    .last-header .menu ul li ul.dropdown-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .last-header .menu ul {
+        position: absolute;
+        text-align: center;
+        background-color: #353b48;
+        z-index: 10;
+    }
+    .last-header .menu ul li {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #toggle {
+        display: block;
+    }
+    #toggle span {
+        float: left;
+        padding: 8px 0 8px 8px;
+    }
+    #toggle span i {
+        font-size: 21px;
+        padding: 1px;
+        line-height: 1.27;
+        animation: rung2s 1.2s infinite alternate;
+    }
+    .menu {
+        display: none
+    }
+    .last-header .menu ul li:hover>ul {
+        position: relative;
+        float: left;
+        top: 0;
+    }
+    .last-header .menu ul li:hover {
+        background: #a52a2a;
+    }
+    .first-header .logo {
+        width: 30%;
+        padding: 0;
+    }
+    .header .phone {
+        margin: 10px 0;
+        padding: 10px 0;
+        display: none;
+    }
+    .header .address {
+        margin: 10px 0;
+        padding: 10px 0;
+        display: none;
+    }
+    .container .f-container-home .f-left .f-function {
+        text-align: center;
+    }
+    .container .hotline-container-home .content-img {
+        width: 40%;
+    }
+    .container .th-container-home .left-th-container-home textarea {
+        width: 69.5%;
+    }
+    .container .f-container-dvdetail {
+        width: 100%;
+    }
+    .container .s-container-dvdetail {
+        padding: 10px 0;
+        float: left;
+        width: 100%;
+    }
+    .container .l-container-dvdetail {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .first-header {
+        text-align: center;
+    }
+    .first-header .logo {
+        width: 100%;
+    }
+    .first-header .logo img {
+        float: none;
+    }
+    .header .phone {
+        width: 100%;
+    }
+    /* style new */
+    .container .f-container-new ul li {
+        width: 48%;
+    }
+    .container .l-container-new-detail ul li img {
+        width: 100%;
+        height: auto;
+    }
+    .container .l-container-new-detail ul li {
+        width: 48%;
+    }
+    .container .th-container-home .left-th-container-home #submit {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .header .phone {
+        width: 86%;
+    }
+    .container .th-container-home .left-th-container-home #submit {
+        width: 40%;
+    }
+}
+
+
+/* style footer */
+
+
+/* reponsive max-width: 800px*/
+
+@media screen and (max-width:850px) {
+    .footer .f-footer .col-1 {
+        width: 18%;
+        padding-left: 71px;
+        padding-right: 53px;
+    }
+    .footer .f-footer .col-2 {
+        width: 29%;
+        padding-right: 15px;
+        padding-left: 2px;
+    }
+    .footer .f-footer .col-3 {
+        padding-right: 15px;
+    }
+    .footer .f-footer .col-4 {
+        padding-right: 15px;
+    }
+    .footer .f-footer .title-footer {
+        width: 135px;
+    }
+    .footer .f-footer .title-footer h3 {
+        width: 153px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .footer .f-footer .col-1 {
+        width: 73%;
+        padding: 15px 45px 0 45px;
+    }
+    .footer .f-footer .col-2 {
+        width: 73%;
+        padding: 15px 45px 0 45px;
+    }
+    .footer .f-footer .col-3 {
+        width: 73%;
+        padding: 15px 45px 0 45px;
+    }
+    .footer .f-footer .col-4 {
+        width: 73%;
+        padding: 15px 45px 0 45px;
+    }
+    .footer .f-footer .title-footer {
+        float: none;
+        height: 47px;
+    }
+    .footer .f-footer ul {
+        padding: 0;
+    }
+    .footer .l-footer .title-l {
+        width: auto;
+    }
+}
+
+
+/* style home */
+
+@media screen and (max-width: 1025px) {
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+    .container .f-container-home .f-left {
+        padding: 10px;
+        width: 96%;
+    }
+    .container .f-container-home .f-right {
+        width: 96%;
+    }
+    .container .t-container-home .right-t-container-home {
+        padding: 10px 0;
+        width: 96%;
+    }
+    .container .s-container-home .selection-service .item ul li img {
+        width: 100%;
+    }
+    .container .t-container-home .left-t-container-home {
+        width: 100%;
+        padding: 0;
+    }
+    .container .hotline-container-home .content-hotline {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container .hotline-container-home .content-hotline {
+        width: 48%;
+    }
+    .container .t-container-home .left-t-container-home img {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .container .hotline-container-home .content-hotline {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .container .th-container-home .left-th-container-home {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:415px) {}
+
+@media screen and (max-width:325px) {}
+
+
+/* style blog */
+
+@media screen and (max-width: 1025px) {
+    .container {
+        width: 96%;
+    }
+    .f-container-blog .f-content {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:850px) {}
+
+@media screen and (max-width:450px) {}
+
+
+/* style service */
+
+@media screen and (max-width:850px) {
+    .f-container-service img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .container .f-container-dvdetail {
+        width: 100%;
+    }
+    .container .s-container-dvdetail {
+        width: 100%;
+        padding: 0;
+    }
+    .container .l-container-dvdetail {
+        width: 84%;
+        padding: 10px 0;
+    }
+}
+
+
+/* style new */
+
+@media screen and (max-width: 1455px) {
+    .container .f-container-new ul li img {
+        width: 100%;
+        padding: 10px 0;
+        height: auto;
+    }
+    .container {
+        width: 96%;
+    }
+    .container-home {
+        width: 100%;
+    }
+}
+
+
+/* style new-detail */
+
+
+/* style contact */
+
+@media screen and (max-width:850px) {
+    .container .f-container-contact {
+        height: 1212px;
+    }
+    .container .f-container-contact .left-container {
+        width: 94%;
+        padding-left: 16px;
+    }
+    .container .f-container-contact .right-container {
+        width: 93%;
+    }
+}
+
+
+/* popup */
+
+@media (max-width: 700px) {
+    .wsu-popup .wsu-content {
+        width: 90%;
+    }
+}
